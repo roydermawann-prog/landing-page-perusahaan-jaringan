@@ -2,7 +2,7 @@ import BlogSection from '../components/sections/BlogSection';
 
 export default function BlogPage() {
   return (
-    <div className="pt-20">
+    <div className="pt-6">
       <BlogSection />
     </div>
   );

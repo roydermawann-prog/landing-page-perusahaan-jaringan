@@ -20,8 +20,8 @@
   @media (min-width: 640px) { .container { padding-left: 1.5rem; padding-right: 1.5rem; } }
   @media (min-width: 1024px) { .container { padding-left: 2rem; padding-right: 2rem; } }
 
-  .section { padding: 4rem 0; }
-  @media (min-width: 768px) { .section { padding: 6rem 0; } }
+  .section { padding: 3rem 0; }
+  @media (min-width: 768px) { .section { padding: 4rem 0; } }
 
   .btn {
     @apply inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium transition-all duration-300 focus:outline-none disabled:opacity-50 disabled:cursor-not-allowed;

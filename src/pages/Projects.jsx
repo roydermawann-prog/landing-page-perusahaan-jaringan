@@ -2,7 +2,7 @@ import ProjectsSection from '../components/sections/ProjectsSection';
 
 export default function ProjectsPage() {
   return (
-    <div className="pt-20">
+    <div className="pt-6">
       <ProjectsSection />
     </div>
   );

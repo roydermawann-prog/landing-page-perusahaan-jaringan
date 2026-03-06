@@ -4,7 +4,7 @@ import TestimonialsSection from '../components/sections/TestimonialsSection';
 
 export default function AboutPage() {
   return (
-    <div className="pt-20">
+    <div className="pt-6">
       <AboutSection />
       <ProcessSection />
       <TestimonialsSection />

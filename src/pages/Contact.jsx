@@ -28,7 +28,7 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="pt-20 section bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-dark-900 dark:via-dark-900 dark:to-dark-800">
+    <div className="pt-6 section bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-dark-900 dark:via-dark-900 dark:to-dark-800">
       <div className="container">
         <div className="max-w-6xl mx-auto">
           {/* Header */}
