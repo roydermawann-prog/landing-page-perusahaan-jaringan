@@ -11,7 +11,7 @@ import CTASection from '../components/sections/CTASection';
 
 export default function HomePage() {
   return (
-    <>
+    <div className="pt-6">
       <HeroSection />
       <ServicesSection />
       <ProjectsSection />
@@ -22,6 +22,6 @@ export default function HomePage() {
       <BlogSection />
       <FAQSection />
       <CTASection />
-    </>
+    </div>
   );
 }
