@@ -11,7 +11,7 @@ export default function Button({
   const sizes = { sm: 'px-4 py-2 text-sm', md: 'px-6 py-3 text-base', lg: 'px-8 py-4 text-lg' };
   const variants = {
     primary: 'bg-blue-600 text-white hover:bg-blue-700 dark:bg-blue-600',
-    secondary: 'bg-white dark:bg-dark-700 text-gray-900 dark:text-white border border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-600',
+    secondary: 'bg-white dark:bg-gray-700 text-black dark:text-white border border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-600',
     ghost: 'text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20'
   };
   return (
