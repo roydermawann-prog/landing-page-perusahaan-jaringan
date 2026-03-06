@@ -7,7 +7,7 @@ export default function Card({ children, className = '', hover = true }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5 }}
-      className={`bg-white dark:bg-dark-800 rounded-xl shadow-lg dark:shadow-xl overflow-hidden ${hover ? 'hover:shadow-xl dark:hover:shadow-2xl transition-shadow' : ''} ${className}`}
+      className={`bg-white dark:bg-gray-800 rounded-xl shadow-lg dark:shadow-xl overflow-hidden ${hover ? 'hover:shadow-xl dark:hover:shadow-2xl transition-shadow' : ''} ${className}`}
     >
       {children}
     </motion.div>

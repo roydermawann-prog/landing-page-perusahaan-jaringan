@@ -4,7 +4,7 @@ import { contactInfo } from '../../data';
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-50 dark:bg-dark-800 border-t border-gray-200 dark:border-dark-700">
+    <footer className="bg-gray-50 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
@@ -56,7 +56,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-200 dark:border-dark-700 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <div className="border-t border-gray-200 dark:border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 dark:text-gray-400 text-sm">© {new Date().getFullYear()} Sinar Jaringan. All rights reserved.</p>
           <p className="text-gray-500 dark:text-gray-500 text-sm mt-2 md:mt-0">Built with React, Tailwind, and professionalism.</p>
         </div>
