@@ -7,14 +7,14 @@ export default function PricingSection() {
   const [annual, setAnnual] = useState(false);
 
   return (
-    <section id="pricing" className="section bg-white dark:bg-dark-900">
+    <section id="pricing" className="section bg-white dark:bg-gray-900">
       <div className="container">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">Transparent Pricing</h2>
           <p className="text-lg text-gray-600 dark:text-gray-400">Choose the package that fits your needs.</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {pricing.map((plan, idx) => (
             <div key={plan.id} className={`card p-8 ${plan.id === 2 ? 'border-2 border-blue-600 relative' : ''}`}>
               {plan.id === 2 && <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-blue-600 text-white px-4 py-1 rounded-full text-sm font-medium">Most Popular</div>}

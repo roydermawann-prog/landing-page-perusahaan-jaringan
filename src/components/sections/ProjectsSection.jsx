@@ -12,7 +12,7 @@ export default function ProjectsSection() {
   const filtered = filter === 'All' ? projects : projects.filter(p => p.category === filter);
 
   return (
-    <section id="projects" className="section bg-gray-50 dark:bg-dark-800">
+    <section id="projects" className="section bg-gray-50 dark:bg-gray-800">
       <div className="container">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">Our Projects</h2>
@@ -22,7 +22,7 @@ export default function ProjectsSection() {
         {/* Filter */}
         <div className="flex flex-wrap justify-center gap-3 mb-12">
           {categories.map(cat => (
-            <button key={cat} onClick={() => setFilter(cat)} className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${filter === cat ? 'bg-blue-600 text-white' : 'bg-white dark:bg-dark-700 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-blue-900/30'}`}>
+            <button key={cat} onClick={() => setFilter(cat)} className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${filter === cat ? 'bg-blue-600 text-white' : 'bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-blue-900/30'}`}>
               {cat}
             </button>
           ))}

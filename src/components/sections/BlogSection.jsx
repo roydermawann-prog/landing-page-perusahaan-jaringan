@@ -5,7 +5,7 @@ import { blogPosts } from '../../data';
 
 export default function BlogSection() {
   return (
-    <section id="blog" className="section bg-gray-50 dark:bg-dark-800">
+    <section id="blog" className="section bg-gray-50 dark:bg-gray-800">
       <div className="container">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">Latest Insights</h2>
