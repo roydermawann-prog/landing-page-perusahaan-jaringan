@@ -15,7 +15,7 @@ const iconMap = {
 
 export default function ServicesSection() {
   return (
-    <section id="services" className="section bg-white dark:bg-gray-900">
+    <section id="services" className="section bg-white dark:bg-gray-900 scroll-mt-20">
       <div className="container">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">Our Services</h2>

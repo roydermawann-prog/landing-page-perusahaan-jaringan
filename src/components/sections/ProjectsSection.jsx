@@ -12,7 +12,7 @@ export default function ProjectsSection() {
   const filtered = filter === 'All' ? projects : projects.filter(p => p.category === filter);
 
   return (
-    <section id="projects" className="section bg-gray-50 dark:bg-gray-800">
+    <section id="projects" className="section bg-gray-50 dark:bg-gray-800 scroll-mt-20">
       <div className="container">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">Our Projects</h2>
